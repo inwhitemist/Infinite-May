@@ -100,7 +100,7 @@ color: white;
         transform: translate(50%,-50%);
     }
     .timeline ul li:hover:after{
-        background-color: aqua;
+        background-color: white;
     }
     .timeline-content .date {
         position: absolute;
