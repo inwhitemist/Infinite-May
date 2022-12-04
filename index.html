@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timeline</title>
     <link rel="stylesheet" href="src/css/ctyle.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+
+    <script src="/src/js/jquery.easeScroll.js"></script>
+    <script>
+   $("html").easeScroll({
+  frameRate: 60,
+  animationTime: 1000,
+  stepSize: 120,
+  pulseAlgorithm: 1,
+  pulseScale: 8,
+  pulseNormalize: 1,
+  accelerationDelta: 20,
+  accelerationMax: 1,
+  keyboardSupport: true,
+  arrowScroll: 50,
+  touchpadSupport: true,
+  fixedBackground: true
+});
+
+    </script>
 </head>
 <body>
     <div class="container">
@@ -61,6 +84,6 @@
                 </li>
             </ul>
         </div>
-    </div>    
+    </div> 
 </body>
 </html>

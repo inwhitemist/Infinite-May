@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 html{
 font-family: 'Montserrat', sans-serif;
@@ -103,7 +104,9 @@ color: white;
         transform: translate(50%,-50%);
     }
     .timeline ul li:hover:after{
-        background-color: aqua;
+        background: linear-gradient(270deg, #246655, #04ffbe);
+        background-size: 100% 100%;
+        animation: AnimationName 6s ease infinite;
     }
     .timeline-content .date {
         position: absolute;
