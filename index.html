@@ -5,11 +5,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	
 	<title>Infinite May 🤍🌿</title>
 
 	<link rel="stylesheet" href="css/main.css">
-
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 	<script src="libs/gsap/gsap.min.js" defer></script>
 	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
 	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
@@ -20,6 +23,11 @@
 <body>
 
 	<div class="wrapper">
+
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+
 		<div class="content">
 
 			<header class="main-header">
@@ -43,6 +51,12 @@
 
 		</div>
 	</div>
+
+	<script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").delay( 1000 ).fadeOut("slow");
+        });
+    </script>
 
 </body>
 </html>
