@@ -157,6 +157,7 @@ body {
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
+	z-index: 11;
 }
 .main-article__paragraph {
 	max-width: calc(var(--index) * 30);
@@ -165,6 +166,7 @@ body {
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
+	z-index: 11;
 }
 .content {
 	will-change: transform;
